@@ -1,6 +1,6 @@
 base:
   '*':
     - base.ntp
-  'roles:wordpress':		
+  'roles:wordpress':
     - match: grain
     - wordpress
